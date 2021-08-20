@@ -20,7 +20,7 @@
    ```
 5. Next, run the following command using the container ID from previous step.
    ```zsh
-    docker exec -it deb8d3347b94 bash (CONTAINER ID)
+    docker exec -it deb8d3347b94 bash <CONTAINER ID>
    ```
 6. To query from postgres, run
    ```zsh
@@ -29,3 +29,6 @@
 
 ## SQL Queries Requested
 For the 2 SQL statements requested, please refer to [here](queries.sql)
+
+## Entity Relationship Diagram
+![ERD](Car_Dealership_ERD.jpeg)
